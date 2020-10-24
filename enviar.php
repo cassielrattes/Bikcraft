@@ -8,7 +8,7 @@ require "./PHPMailer/src/PHPMailer.php";
 require "./PHPMailer/src/SMTP.php";
   
 // Mudar Aqui o e-mail
-$email_envio = "contato@smactech.com"; // E-mail do site (ex: contato@seusite.com)
+$email_envio = ""; // E-mail do site (ex: contato@seusite.com)
 $email_pass = ""; // Senha do e-mail
 
 $site_name = "Bikcraft"; // Nome do Site
