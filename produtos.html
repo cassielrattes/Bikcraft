@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. 
+	Possuímos modelos Passeio, Retrô e Esporte."> <!-- 140 Caracteres -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+  <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. 
+	Possuímos modelos Passeio, Retrô e Esporte." />
+  <meta property="og:url" content="http://bikcraft.infinityfreeapp.com/" />
+  <meta property="og:image" content="http://bikcraft.infinityfreeapp.com/img/og-image.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Bikcraft - Produtos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+
+<body>
+  <!-- START HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4"><img src="img/bikcraft.svg" alt="Bikcraft"></a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START INTRODUCTION -->
+  <section class="introducao-interna interna_produtos">
+    <div class="container">
+      <h1 class="fadeInDown" data-anime="400">Produtos</h1>
+      <p class="fadeInDown" data-anime="800">conheça todos os nossos produtos</p>
+    </div>
+  </section>
+  <!-- END INTRODUCTION -->
+
+  <!-- START PRODUCTS  -->
+  <div class="fadeInDown" data-anime="1200">
+    <section class="container produto_item ">
+      <div class="grid-11">
+        <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
+        <h2>Passeio</h2>
+      </div>
+      <div class="grid-5 produto_icone">
+        <img src="img/produtos/passeio.svg" alt="Bikcraft Passeio">
+      </div>
+      <div class="grid-8">
+        <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio">
+      </div>
+      <div class="grid-8 produto_info">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <ul>
+          <li>Conforto</li>
+          <li>Velocidade</li>
+          <li>Design</li>
+          <li>Versatilidade</li>
+        </ul>
+      </div>
+    </section>
+    <section class="container produto_item">
+      <div class="grid-11">
+        <img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
+        <h2>esporte</h2>
+      </div>
+      <div class="grid-5 produto_icone">
+        <img src="img/produtos/esporte.svg" alt="Bikcraft Esporte">
+      </div>
+      <div class="grid-8">
+        <img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte">
+      </div>
+      <div class="grid-8 produto_info">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <ul>
+          <li>Conforto</li>
+          <li>Velocidade</li>
+          <li>Design</li>
+          <li>Versatilidade</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="container produto_item">
+      <div class="grid-11">
+        <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retro">
+        <h2>Retro</h2>
+      </div>
+      <div class="grid-5 produto_icone">
+        <img src="img/produtos/retro.svg" alt="Bikcraft Retro">
+      </div>
+      <div class="grid-8">
+        <img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro">
+      </div>
+      <div class="grid-8 produto_info">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+        <ul>
+          <li>Conforto</li>
+          <li>Velocidade</li>
+          <li>Design</li>
+          <li>Versatilidade</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <!-- END PRODUCTS  -->
+
+  <!--  -->
+
+  <section class="orcamento">
+    <div class="container">
+      <h2 class="subtitulo">Orçamento</h2>
+      <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="form grid-8 formphp">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail</label>
+        <input type="text" id="email" name="email" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" name="telefone">
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea>
+        <button type="submit" class="btn" id="enviar" name="enviar">Enviar</button>
+      </form>
+      <div class="orcamento_dados grid-8">
+        <h3>Dados</h3>
+        <span>+55 (19) 99718-2002</span>
+        <span>cassielrattes@gmail.com</span>
+        <h3>Monte a sua Bikcraft</h3>
+        <p>Escolha as especificações:</p>
+        <ul>
+          <li>- Cores</li>
+          <li>- Estilos</li>
+          <li>- Medidas</li>
+          <li>- Acessórios</li>
+          <li>- E Outros</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <!-- START BREADCRUMBS -->
+  <section class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalher das vida cotidiana"</p>
+      <cite>WILLIAM MORRIS</cite>
+    </blockquote>
+  </section>
+  <!-- END BREADCRUMBS -->
+
+  <!-- START FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa história</h3>
+          <p>o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalher das vida cotidiana</p>
+        </div>
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="grid-4 footer_redes">
+          <h3>Redes sociais</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt=""></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt=""></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">
+          Bikcraft 2020 - Alguns direitos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- END FOOTER -->
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160808589-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160808589-1');
+  </script>
+</body>
+
+</html>

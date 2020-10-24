@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. 
+	Possuímos modelos Passeio, Retrô e Esporte."> <!-- 140 Caracteres -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Bicicletas Personalizadas" />
+  <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. 
+	Possuímos modelos Passeio, Retrô e Esporte." />
+  <meta property="og:url" content="http://bikcraft.infinityfreeapp.com/" />
+  <meta property="og:image" content="http://bikcraft.infinityfreeapp.com/img/og-image.png" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Bikcraft - Produtos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+
+<body>
+  <!-- START HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4"><img src="img/bikcraft.svg" alt="Bikcraft"></a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="portfolio.html">Portfólio</a></li>
+          <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- START INTRODUCTION -->
+  <section class="introducao-interna interna_contato">
+    <div class="container">
+      <h1 class="fadeInDown" data-anime="400">Contato</h1>
+      <p class="fadeInDown" data-anime="800">tire suas dúvidas com a gente</p>
+    </div>
+  </section>
+  <!-- END INTRODUCTION -->
+
+
+
+  <!--  -->
+
+  <section class="container contato fadeInDown" data-anime="1200">
+    <form id="form_orcamento" method="POST" action="./enviar-sendgrid.php" class="contato_form grid-8 formphp">
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail</label>
+      <input type="text" id="email" name="email" required>
+      <label for="telefone">Telefone</label>
+      <input type="text" id="telefone" name="telefone">
+      <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+      <input type="text" class="nao-aparece" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+      <input type="text" class="nao-aparece" name="dontchange" value="http://">
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea>
+      <button type="submit" class="btn btn-preto" id="enviar" name="enviar">Enviar</button>
+    </form>
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 (19) 99718-2002</span>
+      <span>cassielrattes@gmail.com</span>
+      <span>Rua Adelia Casagrande Bertolotti</span>
+      <span>Indaiatuba, SP</span>
+      <h3>Redes Sociais</h3>
+      <ul>
+        <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt=""></a></li>
+        <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt=""></a></li>
+        <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt=""></a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <!--  -->
+
+  <section class="container contato_mapa fadeInDown" data-anime="1400">
+    <a href="https://google.com" target="_blank" class="grid-16"> <img src="./img/endereco-bikcraft.jpg" alt="Endereço da-Bikcraft"></a>
+  </section>
+
+  <!--  -->
+
+  <!-- START BREADCRUMBS -->
+  <section class="quebra">
+    <blockquote class="quote-externo container">
+      <p>"o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalher das vida cotidiana"</p>
+      <cite>WILLIAM MORRIS</cite>
+    </blockquote>
+  </section>
+  <!-- END BREADCRUMBS -->
+
+  <!-- START FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa história</h3>
+          <p>o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalher das vida cotidiana</p>
+        </div>
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="grid-4 footer_redes">
+          <h3>Redes sociais</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt=""></a></li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt=""></a></li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">
+          Bikcraft 2020 - Alguns direitos reservados
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- END FOOTER -->
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160808589-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160808589-1');
+  </script>
+</body>
+
+</html>
