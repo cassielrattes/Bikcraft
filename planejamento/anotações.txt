@@ -1,0 +1,12 @@
+CALCULO DO GUTTER
+
+GUTTER = Distância entre colunas
+
+(container / colunas X grid-*) - Gutter
+
+RESPONSIVIDADE
+
+*IMPORTANTE* +20 px porque os browsers mais atuais contabilizam a barra de scroll.
+
+MIN-WIDTH: *px + 20 
+MAX-WIDTH: *px - 1 + 20 
