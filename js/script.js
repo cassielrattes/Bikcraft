@@ -25,4 +25,4 @@ if (window.SimpleForm) {
       "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve eu responderei</p></div>",
   });
 }
-// SG.DyEwSVroTDmI4zyQ7ImZPQ.xdSFaqPBQNqUAnS3wIG - JtD_CYAH4EEJwfhFfWIgKGo;
+
